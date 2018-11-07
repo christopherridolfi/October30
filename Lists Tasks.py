@@ -33,6 +33,7 @@ out_list = [1,2,5,6,7,8,8,8,9,9,9,9,0,1,2,4]
 for out in out_list:
     print(out)
 
-value = [0,1,2,3,4,5,6,7,8,9,10]
-for other in value:
-    print(other[2])
+value = [1,2,3,4,5,6,7,8,9,10]
+value_2 = len(value)
+for other in range(0,value_2,2):
+    print(value[other])
