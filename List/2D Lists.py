@@ -9,3 +9,10 @@ for x in newlist:
 
 string_list = ["hello", "World"]
 print(string_list[1][2])
+
+
+
+
+for x in newlist:
+    for y in x:
+        print(y)

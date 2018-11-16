@@ -1,6 +1,6 @@
 import random
 
-list_1 = ["Hi", "Hello", "Holo", "bonjuer", "Chow"]
+list_1 = ["Hi", "Hello", "Hola", "bonjuer", "Chow"]
 print(list_1)
 del list_1[2]
 print(list_1)
@@ -54,3 +54,4 @@ for s in sentance:
         newlist.append(s)
 newlist
 print(newlist)
+
