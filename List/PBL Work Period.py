@@ -167,4 +167,3 @@ print(pivotlist(innlistt,6))
 
 
 
-
