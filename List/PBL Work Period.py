@@ -1,3 +1,5 @@
+#Question 6
+import random
 j= 0
 t=0
 shoppinglist = []
@@ -20,7 +22,7 @@ def shopping():
 
 shopping()
 
-
+#Question 13
 
 row_1 = [0,0,0]
 row_2 = [0,0,0]
@@ -130,7 +132,7 @@ while j == 0:
 
 
 
-
+#Question 10
 
 inlist = [2,5,3,6]
 
@@ -139,6 +141,8 @@ def LargestValue(inlist):
     return inlist[3] # Returns the new value as the function.
 
 print(LargestValue(inlist)) # Calling Up the Function
+
+#Question 11
 
 list1 = [1, 2, 3, 4]  # do max number then all nubmers exept that one then all numbers except that.
 list2 = [5, 6, 7, 8, 9, 10]
@@ -150,7 +154,7 @@ for x in range(len(list3)):
     print(max1)
 
 
-
+#Question 9
 innlistt = [2,7,3,4,9]
 def pivotlist(innlistt,number):
     newwlist = []
@@ -162,8 +166,60 @@ def pivotlist(innlistt,number):
 print(pivotlist(innlistt,6))
 
 
+#Question 8
+result = []
+
+times = int(input("How Many Times Do You Want To Roll The Dice"))
+
+for x in range(0,times):
+    number = random.randint(1,6)
+    result.append(number)
+    print(result)
 
 
+#Question 12
 
+result = []
+
+times = int(input("How Many Times Does Player 1 To Roll The Dice"))
+
+for x in range(0,times):
+    number = random.randint(1,6)
+    result.append(number)
+print("Player 1 Roll History is ")
+print(result)
+
+
+result2 = []
+
+times2 = int(input("How Many Times Does Player 2 Want To Roll The Dice"))
+
+for x in range(0,times2):
+    number2 = random.randint(1,6)
+    result2.append(number2)
+print("Player 2 Roll History is ")
+print(result2)
+
+
+result3 = []
+
+times3 = int(input("How Many Times Does Player 3 Want To Roll The Dice"))
+
+for x in range(0,times3):
+    number3 = random.randint(1,6)
+    result3.append(number3)
+print("Player 3 Roll History is ")
+print(result3)
+
+
+result4 = []
+
+times4 = int(input("How Many Times Does Player 4 Want To Roll his Dice"))
+
+for x in range(0,times4):
+    number4 = random.randint(1,6)
+    result4.append(number4)
+print("Player 4 Roll History is ")
+print(result4)
 
 
